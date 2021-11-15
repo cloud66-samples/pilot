@@ -4,7 +4,7 @@ services:
     git_url: https://github.com/cloud66-samples/pilot.git
     git_branch: build-root
     build_root: src
-    dockerfile_path "../Dockerfile"
+    dockerfile_path: "../Dockerfile"
     ports:
     - container: 8050
       http: 80
@@ -14,7 +14,7 @@ services:
     git_url: https://github.com/cloud66-samples/pilot.git
     git_branch: build-root
     build_root: src
-    dockerfile_path "../Dockerfile"
+    dockerfile_path: "../Dockerfile"
     ports:
     - container: 8051
     command: "/go/src/app/app --port=8051 --dport=8050 --dip=pilot._env(NAMESPACE)"
