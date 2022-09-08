@@ -13,4 +13,4 @@ services:
     git_branch: dev
     ports:
     - container: 8051
-    command: "/go/src/app/app --port=8051 --dport=8050 --dip=pilot._env(NAMESPACE)"
+    command: "/go/src/app/app --port=8051 --dport=8050 --dip=pilot._env(NAMESPACE) "
