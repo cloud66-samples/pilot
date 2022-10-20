@@ -78,6 +78,8 @@ func main() {
 	client := http.Client{
 		Timeout: timeout,
 	}
+	
+	make this broken
 
 	// start the pinger
 	ticker := time.NewTicker(5 * time.Second)
