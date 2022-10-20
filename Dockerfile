@@ -4,4 +4,5 @@ ENV APP_HOME /go/src/app
 COPY . $APP_HOME
 WORKDIR $APP_HOME
 
+RUN ls -la /
 RUN go build
