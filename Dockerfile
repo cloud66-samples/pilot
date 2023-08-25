@@ -1,4 +1,4 @@
-FROM golang:1.15
+FROM $BANANA
 
 ENV APP_HOME /go/src/app
 COPY . $APP_HOME
