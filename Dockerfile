@@ -1,4 +1,4 @@
-ARG $BANANA
+ARG $BANANA="golang:15"
 FROM $BANANA
 
 ENV APP_HOME /go/src/app
