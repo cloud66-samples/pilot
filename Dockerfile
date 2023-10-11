@@ -1,3 +1,4 @@
+ARG $BANANA
 FROM $BANANA
 
 ENV APP_HOME /go/src/app
