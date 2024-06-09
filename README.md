@@ -1,3 +1,9 @@
 # pilot
 A simple pilot to use in container setups for testing and diagnosis purposes.
-CHANGE4
+CHANGE 1
+CHANGE 2
+CHANGE 3
+CHANGE 4
+CHANGE 5
+CHANGE 6
+CHANGE 7
