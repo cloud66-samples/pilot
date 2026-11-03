@@ -1,8 +1,2 @@
-FROM golang:1.15
-
-ENV APP_HOME /go/src/app
-COPY . $APP_HOME
-WORKDIR $APP_HOME
-
-RUN go get -d -v ./...
-RUN go build
+# BuildGrid isolation test: an image from the same account (otter) must build
+FROM staging-nonprod.buildgrid.cx/staging/otter/csv2-pilot.prod.github-com-cloud66-samples-pilot:ffcd2898bf401288-64e5a3b0622f400
